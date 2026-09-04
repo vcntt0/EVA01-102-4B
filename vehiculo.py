@@ -7,7 +7,14 @@ class Vehiculo:
         self.precio = precio
 
     def mostrarInfo(self):
-        pass
+        print("===============VEHICULO===============")
+        print(f"La patente del vehiculo es: {self.patente}")
+        print(f"La marca del vehiculo es: {self.marca}")
+        print(f"El modelo del vehiculo es: {self.modelo}")
+        print(f"El año del vehiculo es: {self.año}")
+        print(f"El precio del vehiculo es: {self.precio}")
 
     def calcularAñosUso(self, añoActual):
-        pass
+        añoActual = 2026
+        añoActual = añoActual - self.año
+        return añoActual
