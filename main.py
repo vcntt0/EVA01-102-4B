@@ -52,7 +52,7 @@ def main():
 
     print("\n===== VENDEDOR =====")
     vendedor1.mostrarDatos()
-    print(vendedor1.calcularComision(auto_1))
+    #print(vendedor1.calcularComision(auto_1))
 
 
 #link github : https://github.com/vcntt0/EVA01-102-4B.git
