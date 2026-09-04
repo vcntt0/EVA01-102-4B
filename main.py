@@ -55,7 +55,7 @@ def main():
     print(vendedor1.calcularComision(auto_1))
 
 
-#link github : 
+#link github : https://github.com/vcntt0/EVA01-102-4B.git
 
 if __name__ == "__main__":
     main()
